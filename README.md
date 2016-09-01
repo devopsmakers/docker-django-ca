@@ -2,13 +2,15 @@
 Django CA Running in a Docker Container
 
 Please ensure you read the docs for the django-ca project:
+
 https://github.com/mathiasertl/django-ca
+
 http://django-ca.readthedocs.io/
 
 > This is in no way a production ready container'd solution!
 > It is intended purely for the purposes of testing and PoC of Django CA.
 > It is configured to use sqlite (non-persistent) and, by default, all
-> state (certs, cas...) will be lost on container destruction.
+> state (certs, CA's...) will be lost on container destruction.
 
 ## Usage
 
