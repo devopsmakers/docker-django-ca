@@ -1,0 +1,5 @@
+django-ca:
+  restart: always
+  build: ./ca
+  ports:
+    - "8000:8000"
