@@ -24,12 +24,12 @@ docker-compose up
 
 Create a super user:
 ```
-docker-compose exec django-ca migrate.py createsuperuser
+docker-compose exec django-ca manage.py createsuperuser
 ```
 and complete the questions you are asked. Now login to the admin interface on:
 `http://<<docker ip>>:8000/admin`.
 
 Create a CA:
 ```
-docker-compose exec django-ca migrate.py init_ca TestCA /C=AT/L=Vienna/O=Example/OU=ExampleUnit/CN=ca.example.com
+docker-compose exec django-ca manage.py init_ca TestCA /C=AT/L=Vienna/O=Example/OU=ExampleUnit/CN=ca.example.com
 ```
