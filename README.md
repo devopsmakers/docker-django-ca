@@ -31,5 +31,5 @@ and complete the questions you are asked. Now login to the admin interface on:
 
 Create a CA:
 ```
-docker-compose exec django-ca migrate.py init_ca TestCA /C=AT/L=Vienna/L=Vienna/O=Example/OU=ExampleUnit/CN=ca.example.com
+docker-compose exec django-ca migrate.py init_ca TestCA /C=AT/L=Vienna/O=Example/OU=ExampleUnit/CN=ca.example.com
 ```
